@@ -6,4 +6,4 @@ LABEL org.opencontainers.image.licenses=MIT
 
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends git-core ca-certificates
-RUN npm install -g semantic-release @semantic-release/gitlab
+RUN npm install -g semantic-release @semantic-release/gitlab conventional-changelog-conventionalcommits
